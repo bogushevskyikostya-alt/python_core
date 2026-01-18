@@ -85,5 +85,27 @@ elif 15 <= temp <= 25:
     print("Тепло")
 else:
     print("Спекотно")
-    
+
+
+
+
+    a = 10
+    b = 5
+
+    if a>b : print("a більше за b")
+    print (a>b) if a>b else print ("a<b")
+    # 10+11 - бінарний оператор
+    # num = -10
+    # num - унарний оператор
+    login = input("Введіть логін: ")
+    display_name= login if login != "" else "Гість"
+    age = 17
+    if age <18:
+        pass # TODO: Implement underage logic later
+else:
+print("Full access granted")
+
+
+
+
 
