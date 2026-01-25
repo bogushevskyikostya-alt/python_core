@@ -12,11 +12,7 @@ while pealed_potatoes< needed_potatoes:
 
 
 
-needed_potatoes = 4
-is_rotten = input("Картопля зіпсована? (так/ні): ").lower() == "так"
-if is_rotten== Так:
-    print("Відкидаємо картоплю")
-    continue
+needed_potatoes = 4   
 pealed_potatoes = 0
 print("Беремо картоплю")
 pealed_potatoes += 1
@@ -24,7 +20,6 @@ pealed_potatoes += 1
 print(f"Почистили{pealed_potatoes} картоплі")
 if is_tired== Так:
     print("Відпочиваємо")
-    break
 else :
     print("Продовжуємо чистити картоплю")
 while True:
@@ -36,8 +31,7 @@ while True:
         case "-": print (f"{num1}-{num2}={num1-num2}")
         case "*": print (f"{num1}*{num2}={num1*num2}")
         case "/": print (f"{num1}/{num2}={num1/num2}")
-        case__: print("Некоректна операція")
-
+      
 '''
 print('Привіт, Ігор!')
 print(10)
