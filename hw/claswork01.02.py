@@ -50,13 +50,13 @@ while True:
 
 
 
-    # Крок 1: Обрати фігуру
+    
 print("Оберіть фігуру:")
 print("1 - Квадрат")
 print("2 - Прямокутник")
 choice = int(input("Введіть 1 або 2: "))
 
-# Крок 2: Ввести розміри
+
 if choice == 1:
     size = int(input("Введіть довжину сторони квадрата: "))
     width = height = size
@@ -67,9 +67,9 @@ else:
     print("Невірний вибір!")
     exit()
 
-# Крок 3: Символ заповнення
+
 symbol = input("Введіть символ для заповнення фігури: ")
 
-# Крок 4: Малюємо фігуру
+
 for i in range(height):
     print(symbol * width)
