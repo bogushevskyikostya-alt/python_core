@@ -64,4 +64,4 @@ text = input("Введіть текст: ")
 words = text.split()
 words.reverse()
 result = " ".join(words)
-print(result)
+
